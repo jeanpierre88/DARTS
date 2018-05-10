@@ -1,0 +1,209 @@
+html{
+    border-width: 5px;
+    border-style: double;
+    margin: 10px;
+}
+body{
+    background-color: darkseagreen;
+}
+a:link, a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    margin: 2px;
+    border-color: blue;
+}
+a:hover, a:active{
+    background: red;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+@font-face{
+    font-family: 'Zengo';
+    src: url('Zengo Demo.ttf');
+}
+@font-face{
+    font-family: 'Dutch';
+    src: url('Dutch & Harley alt.ttf');
+}
+#titulo{
+    font-family: Zengo, Verdana;
+    color: black;
+    font: bold;
+    margin-left: 50px;
+    display: inline;
+}
+#cabecera{
+    background-image: url(http://www.realidadvirtual.com/img/fondo.gif);
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    margin: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-color: gray;
+}
+#menu{
+    /*background-color: gold;*/
+    margin-right: 50px;
+    margin-top: 20px;
+    /*border-style: solid;
+    border-color: blue;
+    /*box-shadow: rgb(150, 0, 150) 5px 5px;*/
+    text-align: center;
+    /*border-radius: 5px;*/
+    /*float: right;*/
+    width: 100%;
+    font-size: 20px;
+}
+#contenido{
+    width: 60%;
+    float: left;
+    font-style: oblique;
+    text-align: justify;
+}
+
+#lateral{
+    width: 30%;
+    /*float: right;*/
+    padding: 10px;
+    font-style: italic;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+footer{
+    background: crimson;
+    border-radius: 20px;
+    padding: 10px;
+    font-style: italic;
+    text-align: center;
+    clear: both;
+    font-size: 20px;
+    font-family: Dutch, Verdana;
+    background: -webkit-radial-gradient(center, ellipse, #ffffff 10%, #ff0000 80%);
+}
+
+#pie:hover{
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    background: crimson;
+    border-radius: 20px;
+    padding: 10px;
+    font-style: italic;
+    text-align: center;
+    clear: both;
+    font-size: 20px;
+    font-family: Dutch, Verdana;
+    background: -webkit-radial-gradient(center, ellipse, #ffffff 10%, #ff0000 80%);
+}
+
+div{
+    background-color: darkkhaki;
+    font-family: Calibri;
+    margin: 10px;
+    font-size: 20px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: forestgreen;
+    padding: 10px;
+    border-radius: 10px;
+    font-style: normal;
+    box-shadow: rgb(100, 200, 0) -5px -5px;
+}
+
+div.estilo2:hover{
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    background-color: darkkhaki;
+    font-family: Calibri;
+    margin: 10px;
+    font-size: 20px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: forestgreen;
+    padding: 10px;
+    border-radius: 10px;
+    font-style: normal;
+    box-shadow: rgb(100, 200, 0) -5px -5px;
+}
+
+#articulo{
+    background-color: orange;
+    font-family: Verdana;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+    border-width: 7px;
+    border-style: groove;
+    border-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(bottom, #ffff33 10%, #ff0000 50%, #000000 80%);
+    background: -moz-linear-gradient(bottom, #ffff33 10%, #ff0000 50%, #000000 80%);
+    background: -o-linear-gradient(bottom, #ffff33 10%, #ff0000 50%, #000000 80%);
+    text-shadow: 2px 2px gray;
+}
+
+h2:hover{
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    -webkit-transform: translateX(100px);
+    -moz-transform: translateX(100px);
+    background: -webkit-linear-gradient(right, #000000 10%, #ff0000 50%, #000000 80%);
+    background: -moz-linear-gradient(right, #000000 10%, #ff0000 50%, #000000 80%);
+    background: -o-linear-gradient(right, #000000 10%, #ff0000 50%, #000000 80%);
+}
+
+h1.tema{
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    background-color: antiquewhite;
+    margin: 10px;
+    font-size: 20px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: firebrick;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(200, 100, 0) 5px -5px;
+}
+
+p:nth-child(even){
+    background-color: antiquewhite;
+    margin: 10px;
+    font-size: 20px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: firebrick;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(200, 100, 0) 5px -5px;
+}
+
+
+#logo:hover{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}
+#imagen:hover
+{
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+}
+[title~="realidad"]{
+    width: 120%;
+    border-width: 7px;
+    border-color: black;
+    border-radius: 250px;
+    box-shadow: rgb(200,100,0) 10px 10px;
+}
+[title~="vr"]{
+    width: 120%;
+    border-width: 7px;
+    border-color: black;
+    border-radius: 250px;
+}
